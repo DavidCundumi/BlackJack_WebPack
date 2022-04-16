@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0%;
+  background-color: #2f4f30;
+  color: white;
+}
+.title {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  padding: 20px;
+  margin: 0%;
+}
+.carta {
+  width: 150px;
+  position: relative; /*Evita que cuando se mueva negativamente a la derecha con el margin-left: -75px se vea pegado al borde izquiero de la pagina*/
+  left: 100px; /*se posicionan las imgenes un poco a la derecha*/
+  margin-left: -75px; /*hace que las cartas se bena unas encimas de otras porque les quita el espacio entre ellas y las deja */
+}
+#computadora-cartas,/*De esta forma es como se crean los estilos cuando le colocas un ID a una etiqueta*/ 
+#jugador-cartas {
+  height: 240px;
+}
