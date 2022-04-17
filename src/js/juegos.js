@@ -82,7 +82,7 @@ export const Jugar = () => { //Funcion anonima autoinvocada
             } else {
                 alert('Computadora Gana')
             }
-        }, 150);
+        }, 350);
 
     }
 
