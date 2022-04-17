@@ -80,7 +80,7 @@ export const Jugar = () => { //Funcion anonima autoinvocada
             } else if (puntosMaquina > 21) {
                 alert('Jugador Gana');
             } else {
-                alert('Computadora Gana')
+                 alert('Computadora Gana')
             }
         }, 350);
 
