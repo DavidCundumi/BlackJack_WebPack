@@ -100,3 +100,6 @@ module.exports = {
 
 
 //C:\Curso-JavaScript\BlackJack_WebPack
+//https://github.com/DavidCundumi/BlackJack_WebPack/settings/pages
+//git commit -m "[descriptive message]"
+//git push -u origin master

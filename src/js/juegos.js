@@ -1,5 +1,5 @@
 //Patron modulo para que no puedan vulnerar la seguridad del juego a partir del objeto global 
-
+const _ = require('underscore');
 export const Jugar = () => { //Funcion anonima autoinvocada
     "use strict" //Es para obligar al desarrollador a declarar las cariables de forma correcta
     let deck = [],
@@ -59,7 +59,7 @@ export const Jugar = () => { //Funcion anonima autoinvocada
             const carta = pedirCarta();
             const valor = valorCarta(carta);
             const imgCarta = document.createElement("img");
-            imgCarta.src = `/BlackJack_WebPack/src/assets/cartas/${carta}.png`;
+            imgCarta.src = `assets/cartas/${carta}.png`;
             imgCarta.classList.add("carta");
             cartasComutadora.append(imgCarta);
             puntosMaquina += valor;
@@ -92,7 +92,7 @@ export const Jugar = () => { //Funcion anonima autoinvocada
         const carta = pedirCarta();
         const valor = valorCarta(carta);
         const imgCarta = document.createElement("img");
-        imgCarta.src = `/BlackJack_WebPack/src/assets/cartas/${carta}.png`;
+        imgCarta.src = `assets/cartas/${carta}.png`;
         imgCarta.classList.add("carta");
         cartasJugador.append(imgCarta);
         puntosJugador += valor;
